@@ -12,9 +12,9 @@ function App() {
   return (
     <div className="App">
       <div className="btn">
-      <button onClick={decrease}>-</button>
+      <button onClick={decrease}><Subtract/button>
       <span>{count}</span>
-      <button onClick={increase}>+</button>
+      <button onClick={increase}>Addition</button>
       
       </div>
     </div>
